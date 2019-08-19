@@ -35,7 +35,7 @@ public class Application {
     }
 
     public static String getStudentNameToPrintUsingOptional(Student student){
-        /* An Optional describes an object that can or can't contains something inside.
+        /* An Optional describes an object that may or may not contains something inside.
          * So, with ofNullable I'm saying that student could be null (In that case optionalName
          * will have Optional.EMPTY as its value)
          * Then, using map I'm saying that if that value is not empty, then apply the getName method from Student */
